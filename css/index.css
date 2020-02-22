@@ -81,7 +81,7 @@ p {
     width: 100px;
     margin-right:-50px;
 }
-.container nav a{
+.container nav .header-a{
     text-decoration:none;
     color:black;
 }
