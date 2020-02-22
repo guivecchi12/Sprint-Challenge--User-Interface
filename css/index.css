@@ -78,7 +78,7 @@ p {
     box-sizing:border-box;
 }
 .container img{
-    width: 100px;
+    width: 200px;
     margin-right:-50px;
 }
 .container nav .header-a{
@@ -88,9 +88,9 @@ p {
 .container nav a:last-child{
     margin-right:50px;
 }
-.container .highway{
+.container .top-image{
     width:100%;
-    height: 200px;
+    height: 150px;
     margin-bottom: 30px;
 }
 .top-content {
@@ -195,4 +195,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE SPECIFIC */
+
+.container .about-page {
+    padding: 0 2%;
+    padding-bottom: 20px; 
+}
+
+.sections{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+.sections div{
+    width:48%;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+.sections img{
+    width:98%;
+    margin-bottom: 2%;
+}
+.sections button{
+    width:35%;
+    margin-top:20px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    background: white;
+    font-weight:bold;
+    
 }
