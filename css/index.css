@@ -121,6 +121,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    animation: column 19s infinite;
 }
 
 .middle-content .boxes .box {
@@ -132,6 +133,23 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: change 10s infinite;
+}
+@keyframes change{
+    to{background-color:white;}
+    to{width:45%;}
+}
+@keyframes column{
+    to{flex-direction: column;}
+}
+.disappear{
+    margin:20px;
+    background-color:yellow;
+    padding:20px;
+    text-align: center;
+}
+@media screen and (max-width: 900px) {
+    .disappear {display: none;}
 }
 .middle-content .boxes .box:first-child{
     background-color:teal;
